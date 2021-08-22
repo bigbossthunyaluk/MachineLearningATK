@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body {
+    text-align: center;
+}
+
+.nametagweb {
+    font-family: 'Prompt',sans-serif;
+    line-height: 10pt;
+    margin: 0px 10px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.bd01{
+    color: #14a1ff;
+    border: solid #0d6efd;
+    border-radius: 5px;
+}
+
+.bd01:hover{
+    color: white;
+    background-color: #0d6efd;
+    transition: 0.3s ;  
+}
+
+.loginbtn{
+    color: white;
+    background-color: #0d6efd;
+    border: solid #0d6efd;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+.loginbtn:hover{
+    color: white;
+    background-color: #212529;
+    border: solid #0d6efd;
+    text-decoration: none;
+    transition: 0.3s ;
+}
+
+.form-head {
+    font-family: 'Prompt', sans-serif;
+    font-size: 50p;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.font1 {
+    font-family: 'Prompt',sans-serif;
+}
+
+.space001 {
+    height: 300px;
+}
+
+.p5Canvas {
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -160px;
+}

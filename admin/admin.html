@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Page</title>
+    <link rel="icon" href="../user/img/MClogo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header class="p-3 bg-dark text-white font1">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="../user/img/MClogo.png"width="50" height="50">
+                <p class="nametagweb">ระบบตรวจสอบผลชุดตรวจ ATK <br/><br/>และรายงานตัวของผู้เข้าสู่พื้นที่</p> 
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../home.html" class="nav-link px-2 text-blue bd01">หน้าหลัก</a></li>
+            </ul>
+            <div class="text-end">
+              <a href="../user/user.html" class="swtichbtn">ผู้ใช้งานทั่วไป</a>
+              <a href="../login/login.html" class="logoutbtn">อสม. ออกจากระบบ</a>
+            </div>
+          </div>
+        </div>
+    </header>
+    <div class="container">
+        <iframe src="https://script.google.com/macros/s/AKfycbyJF3f2AiANNoFwEvFBXf8XOUC3Z24aHlUBKYzT2mBngcNUBUG-tgabHAUh54CuTsOs7w/exec" class="googlesheet"></iframe>
+    </div>
+</body>
+</html>

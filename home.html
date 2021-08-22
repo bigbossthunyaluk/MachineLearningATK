@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Page</title>
+    <link rel="icon" href="/user/img/MClogo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="p-3 bg-dark text-white font1">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="user/img/MClogo.png"width="50" height="50">
+                <p class="nametagweb">ระบบตรวจสอบผลชุดตรวจ ATK <br/><br/>และรายงานตัวของผู้เข้าสู่พื้นที่</p> 
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+
+            </ul>
+            <div class="text-end">
+              <a href="user/user.html" class="swtichbtn">ผู้ใช้งานทั่วไป</a>
+              <a href="login/login.html" class="loginbtn">อสม. เข้าสู่ระบบ</a>
+            </div>
+          </div>
+        </div>
+    </header>
+    <div class="bg-image" style="background-image: url(homebackgroundimage.jpg); height: 100vh; background-position: center center;" id="bgimg">
+        <div class="container">
+            <div class="col-lg-9 col-md-12 mx-auto shadow p-4 rounded font1 configbox">
+                <div class="atkimg"  style="background-image: url(ATKimg.png); height: 30vh; background-position: center center; " id="ATKimg" ></div>
+            <h1 id="textcontrol">ยินดีต้อนรับเข้าสู่</h1><h3 id="textcontrol">ระบบตรวจสอบผลชุดตรวจ Antigen rapid Test Kit โดยใช้เทคโนโลยี Machine Learning และระบบรายงานตัวกับอาสาสมัครหมู่บ้าน
+                ของผู้เดินทางมาจากต่างพื้นที่ และเข้าสู่พื้นที่เพื่อกักตัว ตามนโยบายของกรมควบคุมโรค กระทรวงสาธารณสุข</h3>
+                <div class="row" id="selectbtn">
+                    <div class="col-md-6" id="inbtn">
+                        <a href="user/user.html" class="swtichbtn">สำหรับผู้ใช้งานทั่วไป</a>
+                    </div>
+                    <div class="col-md-6" id="inbtn">
+                        <a href="login/login.html" class="loginbtn">สำหรับ อสม. เข้าสู่ระบบ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

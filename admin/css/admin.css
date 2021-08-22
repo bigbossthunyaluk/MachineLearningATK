@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.nametagweb {
+    font-family: 'Prompt',sans-serif;
+    line-height: 10pt;
+    margin: 0px 10px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.bd01{
+    color: #14a1ff;
+    border: solid #0d6efd;
+    border-radius: 5px;
+}
+
+.bd01:hover{
+    color: white;
+    background-color: #0d6efd;
+    transition: 0.3s;  
+}
+
+.swtichbtn{
+    color: white;
+    background-color: #ff31a9;
+    border: solid #ff31a9;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+.swtichbtn:hover{
+    color: white;
+    background-color: #212529;
+    border: solid #ff31a9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.logoutbtn{
+    margin-left: 10px;
+    color: white;
+    background-color: #fd0d41;
+    border: solid #fd0d41;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+.logoutbtn:hover{
+    color: white;
+    background-color: #212529;
+    border: solid #fd0d41;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.font1 {
+    font-family: 'Prompt',sans-serif;
+}
+
+.googlesheet {
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+}

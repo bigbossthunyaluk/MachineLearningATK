@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Page</title>
+    <link rel="icon" href="../user/img/MClogo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header class="p-3 bg-dark text-white font1">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="../user/img/MClogo.png"width="50" height="50">
+                <p class="nametagweb">ระบบตรวจสอบผลชุดตรวจ ATK <br/><br/>และรายงานตัวของผู้เข้าสู่พื้นที่</p> 
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../home.html" class="nav-link px-2 text-blue bd01">หน้าหลัก</a></li>
+            </ul>
+            <div class="text-end">
+              <a href="../user/user.html" class="swtichbtn">ผู้ใช้งานทั่วไป</a>
+            </div>
+          </div>
+        </div>
+    </header>
+    <div class="container h-100 config01">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="../user/img/MClogo.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+                        <div class="description">
+                            <h4>เข้าสู่ระบบของอาสาสมัครหมู่บ้าน</h4> 
+                        </div>
+						<div class="input-group mb-3">
+							<input type="text" name="username" class="form-control input_user" id="LOGINusername" placeholder="ชื่อผู้ใช้">
+						</div>
+						<div class="input-group mb-3">
+							<input type="password" name="password" class="form-control input_pass" id="LOGINpassword" placeholder="รหัสผ่าน">
+						</div>
+
+							<div class="d-flex justify-content-center mt-3 login_container">
+                     <a class="btn login_btn" type="submit" value="Login" target="_parent" onclick="buttonClicked(); return false;">เข้าสู่ระบบ</a>
+				   </div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript" src="login-script.js"></script>
+</body>
+</html>
