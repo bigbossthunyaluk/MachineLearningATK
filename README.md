@@ -5,7 +5,6 @@ Thunyaluk Sasiwarinkul, Kittiphat Leesombatwathana
 https://bigbossthunyaluk.github.io/MachineLearningATK/home.html (Homepage)
 https://bigbossthunyaluk.github.io/MachineLearningATK/user/user.html (User page)
 https://bigbossthunyaluk.github.io/MachineLearningATK/admin/admin.html (Admin, Please open in Private Browser)
-## Visit database in [**admin page**](https://bigbossthunyaluk.github.io/MachineLearningATK/admin/admin.html)
-username : admin
-
-password : password
+## How to visit database in [**admin page**](https://bigbossthunyaluk.github.io/MachineLearningATK/admin/admin.html)
+We use <a href="https://docs.google.com/spreadsheets">Google Sheet</a> for making database.Google Sheet have some problems about api link.Please open <a href="https://bigbossthunyaluk.github.io/MachineLearningATK/admin/admin.html">admin page</a> in PrivateTap/incognito mode <br></br>
+username : admin<br>password : password
