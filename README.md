@@ -1,6 +1,8 @@
 # MachineLearningATK
 ## Author 
 Thunyaluk Sasiwarinkul, Kittiphat Leesombatwathana
+## Presentation
+Watch presentation video at https://youtu.be/oIoz8-fFc3U (Thai Language)
 ## Link to website
 https://bigbossthunyaluk.github.io/MachineLearningATK/home.html (Homepage)
 https://bigbossthunyaluk.github.io/MachineLearningATK/user/user.html (User page)
