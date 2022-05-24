@@ -62,7 +62,8 @@ function gotResult(error, results) {
   classifyVideo();
 }
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxtaWQr-q7zQLrVYvBDtO2lBp9On1I6N8L1VgZvpuRvi5PA_pE-lMhTikvtZHP6xI00Qw/exec'
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbxtaWQr-q7zQLrVYvBDtO2lBp9On1I6N8L1VgZvpuRvi5PA_pE-lMhTikvtZHP6xI00Qw/exec' old db
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzALVfSO8IanGSHLXRuL6Oz8UcP_ehHI9FXhcOzX7gVKCGfV5xpQxuYTR_bH0L6tXk/exec'
   const form = document.forms['google-sheet']
 
   form.addEventListener('submit', e => {
